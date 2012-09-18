@@ -1,4 +1,6 @@
 Plusdollar::Application.routes.draw do
+  root :to => "home#index"
+
   resources :pledges
 
   # The priority is based upon order of creation:
