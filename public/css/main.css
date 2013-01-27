@@ -5,6 +5,24 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 80px;
+	color: #FFFFFF;
+	position:absolute;
+	top: 100px;
+	left: 100px;
+}
+
+h2 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	color: #FFFFFF;
+	position:absolute;
+	top: 160px;
+	left: 100px;
+}
 /*#bg {
 	position:fixed; 
 	top:-50%; 
