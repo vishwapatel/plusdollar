@@ -44,8 +44,18 @@ h2 {
 	left: 100px;
 }
 
+a {
+	color: #FFFFFF;
+	background: transparent;
+}
+
+a:visited {
+	color: #FFFFFF;
+}
+
 a:hover {
 	position: relative;
+	color: #FFFFFF;
 	background-color: transparent;
 	top: -5px;
 	padding-bottom: 5px;
@@ -88,11 +98,6 @@ a:hover {
 	position: absolute;
 	top: 94px;
 	left: 980px;
-}
-
-a {
-	color: #FFFFFF;
-	background: transparent;
 }
 
 #aboutme {
