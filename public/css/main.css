@@ -1,5 +1,69 @@
-body {
-  background-image:url(bg.png);
-  background-position:initial initial;
-  background-repeat:initial initial;
+body { 
+	background: url(Mount_Everest.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+/*#bg {
+	position:fixed; 
+	top:-50%; 
+	left:-50%; 
+	width:200%; 
+	height:200%;
+}
+#bg img {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	right:0; 
+	bottom:0; 
+	margin:auto; 
+	min-width:50%;
+	min-height:50%;
+}*/
+
+/*img.bg {
+  height:auto;
+  left:0;
+  min-height:100%;
+  min-width:1024px;
+  position:fixed;
+  top:0;
+  width:100%;
+}*/
+
+/*img.bg {
+  left:50%;
+  margin-left:-512px;
+}*/
+
+/*h1 {
+	font-size: 50px; 
+	margin: 30px; 
+	color: #444444; 
+	position: absolute; 
+	top: 300px; 
+	left: 50px;
+	width: 100%;
+}
+
+h2 {
+	font-size: 50px; 
+	margin: 30px; 
+	color: #444444; 
+	position: absolute; 
+	top: 400px; 
+	left: 50px;
+	width: 100%;
+}
+
+h1 {
+	font-size: 50px; 
+	margin: 30px; 
+	color: #444444; 
+	position: absolute; 
+	top: 500px; 
+	left: 50px;
+	width: 100%;
+}*/
