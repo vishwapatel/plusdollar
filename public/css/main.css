@@ -34,6 +34,10 @@ h2 {
 	left: 280px;
 }
 
+#lastname {
+	margin-left: 20px;
+}
+
 #photo {
 	position: absolute;
 	top: 96px;
