@@ -44,10 +44,18 @@ h2 {
 	left: 100px;
 }
 
+a:hover {
+	position: relative;
+	background-color: transparent;
+	top: -5px;
+	padding-bottom: 5px;
+	outline: none;
+}
+
 #githubphoto {
 	height: 25px;
 	width: 25px;
-	position:absolute;
+	position: absolute;
 	top: 40px;
 	left: 1000px;
 }
@@ -55,21 +63,36 @@ h2 {
 #linkedinphoto {
 	height: 30px;
 	width: 30px;
-	position:absolute;
+	position: absolute;
 	top: 40px;
 	left: 1050px;
 }
 
 #gmailphoto {
-	height: 38px;
-	width: 38px;
-	position:absolute;
-	top: 35px;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 33px;
 	left: 1100px;
+}
+
+#quoraphoto {
+	height:27px;
+	width: 27px;
+	position: absolute;
+	top: 40px;
+	left: 1162px;
+}
+
+#dividerphoto {
+	position: absolute;
+	top: 94px;
+	left: 980px;
 }
 
 a {
 	color: #FFFFFF;
+	background: transparent;
 }
 
 #aboutme {
