@@ -1,3 +1,8 @@
+@font-face {
+	font-family: colorsofautumn;
+	src: url('ColorsOfAutumn.ttf');
+}
+
 body { 
 	background: url(Mount_Everest.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -7,21 +12,43 @@ body {
 }
 
 h1 {
-	font-family: 'Permanent Marker', cursive;
-	font-size: 80px;
+	font-family: colorsofautumn;
+	font-size: 60px;
 	color: #FFFFFF;
-	position:absolute;
+	position: absolute;
 	top: 100px;
-	left: 100px;
+	left: 280px;
 }
 
 h2 {
-	font-family: 'Permanent Marker', cursive;
-	font-size: 50px;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 30px;
 	color: #FFFFFF;
-	position:absolute;
-	top: 160px;
+	position: absolute;
+	top: 190px;
+	left: 280px;
+}
+
+#photo {
+	position: absolute;
+	top: 96px;
 	left: 100px;
+}
+
+#githubphoto {
+	height: 25px;
+	width: 25px;
+	position:absolute;
+	top: 100px;
+	left: 1000px;
+}
+
+#linkedinphoto {
+	height: 30px;
+	width: 30px;
+	position:absolute;
+	top: 100px;
+	left: 1050px;
 }
 /*#bg {
 	position:fixed; 
