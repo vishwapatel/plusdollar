@@ -2,9 +2,6 @@ Plusdollar::Application.routes.draw do
   # root :to => "home#index"
   # 
   # match "/linkedin" => redirect_to("www.linkedin.com/pub/vishwa-patel/47/b85/247")
-
-  resources :pledges
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
