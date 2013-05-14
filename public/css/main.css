@@ -62,14 +62,14 @@ a:hover {
 	outline: none;
 }
 
-#about-container {
-	display: none;
+#about-box {
 	position: absolute;
+	display: none;
 	width: 40%;
 	height: 50%;
 	top: 250px;
 	left: 90px;
-	color: #000000;
+	color: rgba(0,0,0,0.5);
 	background-color: rgba(242,242,242,0.8);
 	padding: 10px 10px 10px 10px;
 	-moz-border-radius:10px;  /* for Firefox */
@@ -78,6 +78,10 @@ a:hover {
 	font-family: league, 'Helvetica Neue', Helvetica, Arial;
 	font-size: 2em;
 	line-height: 40px;
+}
+
+#closelink {
+	color: rgba(0,0,0,0.5);
 }
 
 #githubphoto {

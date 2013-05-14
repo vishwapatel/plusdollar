@@ -29,6 +29,17 @@
 	<div id="photo">
 		<img src="images/VishwaPhoto.png">
 	</div>
+
+	<div id="about-box">
+		<p>
+		Hi! I'm Vishwa Patel, a rising CS Junior at the University of Pennsylvania.
+		I'm passionate about making products that make people's lives simpler by solving their problems.
+		I love acting, roller coasters, The Beatles, Oasis and Kasabian.
+		</p>
+		<a href="#" id="closelink">
+			Close
+		</a>
+	</div>
 	
 	<div id="githubphoto">
 		<a href="http://www.github.com/vishwapatel"><img src="images/github.png"></a>
@@ -54,7 +65,7 @@
 	<h2> developer, actor, sophomore @ UPenn</h2>
 	
 	<div id="aboutme">
-		ABOUT
+		<a href="#"> ABOUT </a>
 	</div>
 	
 	<div id="projects">
@@ -72,20 +83,17 @@
 	<div id="contactme">
 		<a href="mailto:vishwa@seas.upenn.edu"> CONTACT ME </a>
 	</div>
-
-	<div id="about-container">
-		<p>
-		Hi! I'm Vishwa Patel, a rising CS Junior at the University of Pennsylvania.
-		I'm passionate about making products that make people's lives simpler by solving their problems.
-		I love acting, roller coasters, The Beatles, Oasis and Kasabian.
-		</p>
-	</div>
 </body>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$("#aboutme").click(function() {
-				$("#about-container").fadeToggle('slow', function() {});
+			$("#aboutme").click(function(e) {
+				e.preventDefault();
+				$("#about-box").fadeToggle('slow');
+			});
+
+			$("#closelink").click(function(e) {
+				$(this).parent().fadeOut('slow');
 			});
 		});
 	</script>
