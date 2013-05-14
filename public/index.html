@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 
 	<script type="text/javascript">
 
@@ -53,7 +54,7 @@
 	<h2> developer, actor, sophomore @ UPenn</h2>
 	
 	<div id="aboutme">
-		<a href="http://www.vishwa.me/about"> ABOUT </a>
+		ABOUT </a>
 	</div>
 	
 	<div id="projects">
@@ -71,5 +72,22 @@
 	<div id="contactme">
 		<a href="mailto:vishwa@seas.upenn.edu"> CONTACT ME </a>
 	</div>
+
+	<div id="about-container">
+		<p>
+		Hi! I'm Vishwa Patel, a rising CS Junior at the University of Pennsylvania.
+		I'm passionate about making products that make people's lives simpler by solving their problems.
+		I love acting, roller coasters, The Beatles, Oasis and Kasabian.
+		</p>
+	</div>
 </body>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#aboutme").click(function() {
+				$("#about-container").fadeToggle('slow', function() {});
+			});
+		});
+	</script>
+
 </html>
